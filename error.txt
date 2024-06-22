@@ -1,0 +1,8 @@
+----------npm and npx clash ----
+I have resolved with the following steps:
+
+npm uninstall -g create-react-app
+
+npx clear-npx-cache
+
+npx create-react-app myapp
